@@ -40,6 +40,11 @@ header{
     font-weight: lighter;
 }
 
+.links li{
+    margin: 5px;
+}
+
+
 .headercontent{
     margin-left: 15%;
     margin-right: 15%;
@@ -101,4 +106,55 @@ header{
     font-size: 18px;
     color: white;
     width: 50%;
+    margin-left: 10px;
+}
+
+
+#body1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 130px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.content{
+    display: flex;
+    
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item .box {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    
+}
+
+.item .text{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    width: 65%;
+    text-align: center;
+
 }
