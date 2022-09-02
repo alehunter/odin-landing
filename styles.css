@@ -158,3 +158,32 @@ header{
     text-align: center;
 
 }
+
+#body2{
+    background-color:#e5e7eb;
+    height: 40ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    text-align:justify;
+    
+}
+
+.container .author{
+    align-self: flex-end;
+    font-size: 25px;
+    margin-top: 20px;
+}
